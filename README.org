@@ -1,8 +1,8 @@
-* Last name:
-* First name:
-* Github username:
+* Last name: Leite
+* First name: Eduardo
+* Github username:Leiteduardo
 
-* Instructions:
+* Instructions:I think I did this already.
 
 Fill out the top of this form, commit and push it back to GitHub.
 

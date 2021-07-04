@@ -1,9 +1,7 @@
 import java.io.*;
 import java.util.*;
 /*
-TODO:
-implement turn for player 1
-*/
+//Peter, Chris, Leite
 public class Mancala {
 //  checks if p1-p6 or p7-p12 is empty;
   //Two global varibles

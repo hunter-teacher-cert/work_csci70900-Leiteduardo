@@ -1,8 +1,8 @@
-/** skeleton file for
+
  class twoDimArray
   ...practice working with 2D arrays
 */
-
+//Eduardo, Alex, Dainaa
 public class TwoDimArray
 {
 

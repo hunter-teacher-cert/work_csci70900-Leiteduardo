@@ -1,3 +1,4 @@
+//Tiffany, Emma, Stephania, Victoria, Eduardo.
 import java.io.*;
 import java.util.*;
 public class Nim{

@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 /*
-//Peter, Chris, Leite
+//Peter, Chris, Eduardo
 public class Mancala {
 //  checks if p1-p6 or p7-p12 is empty;
   //Two global varibles

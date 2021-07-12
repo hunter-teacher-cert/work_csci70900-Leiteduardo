@@ -1,5 +1,6 @@
 lab -- Day 7 | 0b111 | 0x7
 
+   Change file name to:
    class: Foogle
 
    A mystery class for code analysis and search exploration.

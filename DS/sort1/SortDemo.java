@@ -1,4 +1,4 @@
-Change file name.
+//Change file name.
 import java.io.*;
 import java.util.*;
 
@@ -54,9 +54,9 @@ public class SortDemo{
 	
     }
 
-// public int get(int index){
-//   return this.data.get(index);
-// }
+//public int get(int index){
+//return this.data.get(index);
+ //}
     /*
       return the index of the ArrayList data from index start to the end
       Example, if the arraylist has:
@@ -66,14 +66,20 @@ public class SortDemo{
     */
     public int findSmallestIndex(int start){
       int smallIndex = start;
-      //int smallestValue = data[start];
+      int smallestValue<Integer> = data;
+      data = new ArrayList<Integer>();
+
+
+    
       //for loop loop iterates from start  and sees if i is less that the size of the array list
      // if so if the current position is less that the start the new smalles index is the current i, it keeps track of the smallest i
       for(int i=start+1; i<data.size(); i++){
         if(data.get(i) < data.get(smallIndex)) {
           smallIndex = i;
         }
-      }//end for
+      
+      }
+    //end for
       
       // start a variable at the one after start
       // your code here

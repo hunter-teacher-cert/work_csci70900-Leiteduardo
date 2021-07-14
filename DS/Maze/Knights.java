@@ -10,7 +10,7 @@ public class Knights{
     private int[][] board;
     private int rows = 5;
     private int cols = 5;
-    private int size=5;
+    private int size =5;
     private String clearScreen="[0;0H\n";
 
     private void delay(int n)
@@ -23,7 +23,7 @@ public class Knights{
     }
 
     
-    public Knights(int size){
+  public Knights(int size){
 	rows = size;
 	cols = size;
 	this.size=size;
@@ -92,7 +92,7 @@ public class Knights{
 	    return false;
 	}
 	
-	
+	SHOULD THIS BE "COUNT"?
 	// what do we put into the board
 	// Change CHANGETHIS
 	board[col][row]=CHANGETHIS;

@@ -12,7 +12,7 @@ boolean solved;
 	//solved = m.solve(1,1);
 	
 	
-	Knights k - new Knights(5);
+	Knights k = new Knights(5);
 	solved = k.solve(1,1);
 	
 	

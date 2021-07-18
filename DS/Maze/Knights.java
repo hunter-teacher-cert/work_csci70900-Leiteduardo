@@ -92,7 +92,7 @@ public class Knights{
 	    return false;
 	}
 	
-	SHOULD THIS BE "COUNT"?
+	//SHOULD THIS BE "COUNT"?
 	// what do we put into the board
 	// Change CHANGETHIS
 	board[col][row]=CHANGETHIS;

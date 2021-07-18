@@ -7,39 +7,45 @@ public class Node {
     private Node next;
 
     public Node() {
-	data = "";
-	next = null;
+	     data = "";
+	     next = null;
     }//default constructor
 
     public Node(String value) {
-
-	data = value;
-	next = null;
-    }//constructor(vale)
+	     data = value;
+	      next = null;
+    }//constructor(value)
 
     public Node(String value, Node next) {
-	data = value;
-	this.next = next;
+	     data = value;
+	      this.next = next;
     }//constructor(value, next)
 
     public void setData(String value) {
-	data = value;
+	     data = value;
     }//setData
 
-    public void setNext(Node n) {
-	next = n;
+    public void setNext(Node n) {//why is this a void method? Because it doesn't return anything.
+	     next = n;
     }//setNext
 
     public String getData() {
-	return data;
+	     return data;
     }//end getValue
 
     public Node getNext() {
-	return next;
+	     return next;
     }//getNext
 
     public String toString() {
-	return data;
+	     return data;
     }//toString
-
+    public void printWholeList(){
+      Node temp = this;
+      while (temp!=null){
+        System.out.print(temp+"->");
+        temp = temp.getNext();
+      }
+      System.out.println("Null");
+    }
 }//class Node

@@ -1,4 +1,5 @@
-Hw 1- 071221 
+
+//Hw 1- 071221 
 //Lesson Objective: To use boolean logic in Java to //test for triangles.
 
 //Aim: How to write code that will test whether a //shape is a triangle.
@@ -11,7 +12,7 @@ Hw 1- 071221
 //Lesson Content: Discussion about the basic //characteristics of a triangle;
 //Different types of triangles;
 //Proof of a triangle
-//How to use an if statement to prove that a shape with 3 //sides is a triangle. 
+//How to use an if statement to prove that a shape //with 3 //sides is a triangle. 
 //Time: 10 minutes
 
 //Lesson Activity: 

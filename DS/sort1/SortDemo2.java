@@ -1,5 +1,3 @@
-Eduardo
-Liam Baum
 import java.io.*;
 import java.util.*;
 

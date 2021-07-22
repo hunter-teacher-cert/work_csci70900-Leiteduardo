@@ -125,7 +125,7 @@ public class Knights{
     solved= solve(col+2,row-1, count+1);
   }
   if(!solved){
-    solved= solve(col+2,row+1, couont+1);
+    solved= solve(col+2,row+1, count+1);
   }
   if(!solve){
     solved= solve(col-2,row-1, count+1);

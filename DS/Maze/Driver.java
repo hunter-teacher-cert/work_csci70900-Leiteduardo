@@ -13,7 +13,7 @@ boolean solved;
 	
 	//Started working on the Knights Tour.
 	Knights k = new Knights(5);
-	solved = solve (1,1);
+	solved = k.solve (1,1);
 	
 	
   }

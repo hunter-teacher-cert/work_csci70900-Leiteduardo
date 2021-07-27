@@ -127,7 +127,7 @@ public class Knights{
   if(!solved){
     solved= solve(col+2,row+1, count+1);
   }
-  if(!solve){
+  if(!solved){//this was the problem with my code: after days debugging I realized that I had "solve" instead of "solved".
     solved= solve(col-2,row-1, count+1);
   }
   if(!solved){

@@ -22,7 +22,7 @@ public class TreeNode{
 	this.data = data;
     }
 
-    public void setLeft(TreeNode left){
+  public void setLeft(TreeNode left){
 	this.left = left;
     }
 

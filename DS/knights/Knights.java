@@ -1,7 +1,3 @@
-cd //Worked out some possible solutions fot the bug
-//Consultants: Eric and Michele.
-
-
 import java.io.*;
 import java.util.*;
 

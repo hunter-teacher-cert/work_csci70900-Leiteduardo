@@ -12,14 +12,15 @@ The mini lesson will contain references to how hanging is an inhuman form of pun
 NYS CS Standards- Impacts of Computing
 Society- 9-12.IC.1
 **Ethics- 9-12.IC.3- this might be a stretch, but I will try to tilt the conversation towards equity in CS- I might ask students to make a connection between CS and justice: 
-aren’t the people most likely to be hanged also the ones most likely to be kept out of CS education? The students are ready for this kind of discussion due to the BLM movement and the George Floyd tragedy.
+Aren’t the people most likely to be hanged also the ones most likely to be kept out of CS education? The students are ready for this kind of discussion due to the BLM 
+movement and the George Floyd tragedy.
 */
 
 Aim: To write the code for The Spaceman Game.
 
 Class Activities:
 
- * Do now- word guessing game
+* Do now- word guessing game
 * Mini Lesson- presentation of The Spaceman Game
 * Class Activity- planning/pseudocoding in groups
 * Wrap up- Chat Storm
@@ -40,16 +41,16 @@ I would ask side questions such as:
 Note: it’s important to emphasize the social dimension of CS teaching and why women and minorities have been excluded for so long (NYS CS Standards: Society- 9-12.IC.1).
 */
 
-* Mini Lesson- The Spaceman Game- an alternative to Hangman-      20 min
-First we will watch a video that presents the game as it is played:
+Mini Lesson- The Spaceman Game- an alternative to Hangman-      20 min
+1- First we will watch a video that presents the game as it is played:
            https://videopress.com/v/Fk5cYs
 
-Here is when I will make mention of the inhumanity of hanging as a form of punishment. I will further establish a connection between hanging and social injustice. 
+Here I will make mention of the inhumanity of hanging as a form of punishment. I will further establish a connection between hanging and social injustice. 
 Questions that I might ask would be: 
 * How would you compare George Floyd’s Death to a hanging? 
 *Who is most likely to be denied a CS education: a person like Floyd or a person like Derik Chauvin (Ethics- 9-12.IC.3)?
 
-I will then show a code that is already made on how to create a Spaceman game.
+2- I will then show a code that is already made on how to create a Spaceman game.
 BUT
 The code contains a bug, i.e. all the letters are printing one on top of one another.
 LIVE CODING
@@ -58,7 +59,7 @@ I will live code with student participation: once I show the code I will ask for
 * Mini Lesson- continued
 Project** assignment- students will be asked to work in groups to arrive at a common understanding of what the project requires.
 
-* Class Work - heterogeneous groups chosen by the teacher (4 students: one who is good with coding; one who struggles; one language learner; one inclusion). 20 minutes
+Class Work - heterogeneous groups chosen by the teacher (4 students: one who is good with coding; one who struggles; one language learner; one inclusion). 20 minutes
 
 Task- read the instructions for the Project** located in GC and discuss them with your group members (see Project instructions below).
 Arrive at a common understanding of what this project requires
@@ -82,14 +83,14 @@ Deliverable: the general plan for your project and the pseudocode- due today.
 finish the work in class while others may need more time. This is a means of differentiation: extended time.
 */
 
-*Wrap up- Chat Storm- write your answer, but don’t send it until told to do so.
+Wrap up- Chat Storm- write your answer, but don’t send it until told to do so.
 Question- this project is: mild- medium spicy- fire.
 
 
 
 
 
-**Project 4: Guess My Word
+**Project: Guess My Word
 Students will implement a Snap! “Guess my Word” word game.
 Overview
 In Guess My Word, one player (the “chooser”) chooses a secret word and another player (the “guesser”) attempts to guess the word one letter at a time. If a guessed letter 

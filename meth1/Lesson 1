@@ -1,0 +1,96 @@
+Lesson- Creating a Spaceman Game on Snap.
+Day 1
+
+/*For this lesson the students are required to design and implement a code for a word-finding game that is commonly known as Hangman. However, due to the social context that informs our practice, we will take pains to motivate a name change to the game. Our game is called The Spaceman Game, but it has the same rules as its predecessor. By engaging in the development of this alternative game we hope that the students will contemplate the social implications of using a name.
+
+Due to our drive for inclusion in CS classrooms, the  do now will evoke the name of a famous woman in CS- Grace Hopper.
+
+The mini lesson will contain references to how hanging is an inhuman form of punishment and will also invite students to place it in a racial context.
+NYS CS Standards- Impacts of Computing
+Society- 9-12.IC.1
+**Ethics- 9-12.IC.3- this might be a stretch, but I will try to tilt the conversation towards equity in CS- I might ask students to make a connection between CS and justice: aren’t the people most likely to be hanged also the ones most likely to be kept out of CS education? The students are ready for this kind of discussion due to the BLM movement and the George Floyd tragedy.
+*/
+
+Aim: To write the code for The Spaceman Game.
+
+Class Activities:
+
+Do now- word guessing game
+Mini Lesson- presentation of The Spaceman Game
+Class Activity- planning/pseudocoding in groups
+Wrap up- Chat Storm
+
+Do Now- is this letter in the word? 5-7 minutes
+Hint: Famous woman in CS.
+_ _ _ _ _  _ _ _ _ _ _
+
+/*For the do now, I will display the dashes and ask students to volunteer letters that they think might be in the word. I will use a system of index cards to pick the students to answer. The index cards allow me to monitor student participation, because once I pick a card containing a student’s name, I write down the date when they participated in class. This ensures that everybody has a chance to participate. 
+
+Once the name Grace Hopper appears, we would spend a few minutes on her contributions to CS and why it is important that we have women in CS.
+I would ask side questions such as:
+Why is it important that we recognize women’s contributions to CS?
+Should we care that girls are underrepresented in CS?
+
+Note: it’s important to emphasize the social dimension of CS teaching and why women and minorities have been excluded for so long (Society- 9-12.IC.1).
+*/
+Mini Lesson- The Spaceman Game- an alternative to Hangman- 20 min
+First we will watch a video that presents the game as it is played
+           https://videopress.com/v/Fk5cYs
+Here is when I will make mention of the inhumanity of hanging as a form of punishment. I will further establish a connection between hanging and social injustice. A question that I might ask would be: How would you compare George Floyd’s Death to a hanging? Who is most likely to be denied a CS education: a person like Floyd or a person like Derik Chauvin (Ethics- 9-12.IC.3)?
+I will then show a code that is already made on how to create a Spaceman game.
+The code contains a bug, i.e. all the letters are printing one on top of one another.
+I will live code with student participation: once I show the code I will ask for suggestions on how to fix the problem (9-12.CT 5).
+Class Work - heterogeneous groups chosen by the teacher (4 students: one who is good with coding; one who struggles; one language learner; one inclusion). 20 minutes
+Task- read the instructions for the Project** located in GC and discuss them with your group members
+Arrive at a common understanding of what this project requires
+Map out your game and write a brief description: pseudocode.
+a- general aspects, looks, sprites
+b- words: randomly generated or a single word? XTRA CREDIT
+c- the creative element- what will it look like
+d- how to deal with each letter choice- removing the letter from the list
+e- point system- number of tries
+Group work Protocol: open cameras, open mics, robust discussions about the Project, full accountability. (I will visit groups and expect each student to be able to speak for the group if called upon).
+/*Standards- 
+7-8.CT.5- while this skill appears in Middle School, it is relevant for the project. The key here is to identify computations and create a function.
+9-12.CT.5- here the key word is modify a function.
+7-8.CT.7/9-12.CT.7- again, here the standard for Middle School refers to using a program that uses a variable while at the 9-12 level that variable changes.
+The code for The Spaceman will spiral students’ abilities from Middle School to HS.
+
+*/
+Deliverable: the general plan for your project and the pseudocode- due today.
+*/Note: We have established that when we say that something is due “today”, it means until 12 am. In practice that means that students who can work more productively may finish the work in class while others may need more time. This is a means of differentiation: extended time.
+*/
+
+Wrap up- write your answer, but don’t send it until told to do so.
+Question- this project is: mild- medium spicy- fire.
+
+
+
+
+
+**Project 4: Guess My Word
+Students will implement a Snap! “Guess my Word” word game.
+Overview
+In Guess My Word, one player (the “chooser”) chooses a secret word and another player (the “guesser”) attempts to guess the word one letter at a time. If a guessed letter appears in the word, all instances of it are revealed. If not, the guesser loses a chance. If the guesser figures out the secret word before he or she runs out of chances, he or she wins. If not, the player who chose the word wins. Chances are tracked using a figure drawing of your choice. You can build a bear or build an ice cream cone, or disassemble a snowman, be creative. The figure is drawn one part at a time, and the guesser loses when the entire figure has been drawn or disappears. This game is also the basis for the TV game show Wheel of Fortune.
+Behavior
+ 
+Gameplay
+In this implementation of Guess My Word, the computer will take on the role of the “chooser” and the human player will be the “guesser.” The computer will secretly choose a word from a list (see below) and show the player how many letters are in the word by displaying a sequence of blanks (underscores). Then, the computer will begin asking for guesses. If the player guesses a letter that is in the secret word, all blanks representing an instance of that letter should be replaced by the letter. If the guessed letter is not in the word at all, the player should lose a chance and a new part of the figure being built should appear or disappear as if figure is being disassembled. If the player guesses a letter he or she has already guessed, he or she should not lose a chance, even if that letter is not in the word. If the player guesses all letters in the word, he or she wins. If the figure being built is completed, the player loses. In either case, the secret word should be revealed after the game is over.
+Sprites
+Your game will need to include at least three sprites: the figure being built or disassembled, a “host” sprite that asks the player for a guess and informs him or her whether the guess is correct, and an “assistant” sprite that tells the player the status of the secret word. You may use more sprites if you think they are appropriate. The host and assistant should have clear roles and should never do each other's job.
+ 
+Word Status
+As the game is played, the player should be shown the current guessed status of the secret word. Letters that have been correctly guessed should be shown in the correct locations. Unguessed letters will appear as blanks. At the beginning of the game, no letters will have been guessed, and the only information shown to the player will be a sequence of blanks, with one blank for each letter in the secret word. As the player guesses letters correctly, blanks representing guessed letters should be replaced by those letters. So, for example, if the secret word is “screwdriver” and the player has guessed e, s, r, and d, the current word status would be: s _ r e _ d r _ _ e r.
+Chances
+The player will have six “chances” to guess the word. Guessing a correct letter does not cost a chance. Each missed chance will cause a new piece of the figure being built to appear or disappear if figure is being disassembled. The six pieces will depend on the figure you choose. Example 1, a snowman can have the following parts: head, eyes, left arm, right arm, middle snowball, and bottom snowball. Example 2, a bear can have the following parts: head, body, left arm, right arm, left leg, and right leg. Example 3, an ice cream cone can have the following parts: cone, 2 scoops of ice cream, fudge, sprinkles, and a cherry. If you would like to be more creative with the appearance, feel free to do so. No matter what your figure looks like, though, it should include these six pieces and no more.
+Game End
+The game can end in one of two ways:
+If the player has guessed the complete secret word, he or she wins.
+Otherwise, if the player has run out of chances and the complete figure has been drawn, or disassembled as in the Snowman sample solution the player loses.
+In either case, when the game ends the host should stop asking for guesses. The host should inform the player whether he or she won or lost, and the assistant should reveal the entire secret word.
+
+////
+
+
+
+

@@ -6,13 +6,13 @@ We started working on the project in class on Thursday:
 2- We started forming the backbone of the code.
 3- We watched some videow about Hashing
 4- We read some tutorials like GeeksFor GeeksForGeeks
-5- We started coding on 
-6- On Saturday we started working on the code via Zoom: Mr. H, Michele and Eduardo. At the end we had more bugs than a Central ark in a Summer Evening. So we stopped for the weekend.
+5- We started coding on Friday
+6- On Saturday we started working on the code via Zoom: Mr. H, Michele and Eduardo. At the end we had more bugs than Central Park in a Summer Evening. So we stopped for the weekend and agreed to look at the work independently before the following meeting.
 7- Monday we resumed work on the code. The biggest problem was that it was printing Michele's name four times when we added her. 
 8- We tried changing the print command, changing to adding/setting, but nothing was working.
-9- So Michele, our resources expert, searched the web and found some answers in Stackoverflow, and docsoverflow.
+9- So Michele, our resources expert, searched the web and found some answers in Stackoverflow,  docsoverflow, and GeeksForGeeks. I looked in some the code that we had done in class dealing with linked lists and arrays.
 10- In the end we figured out the problem. 
-11- It was late Wednesday morning when we finally had a working code with no bugs, but Mr. H wanted to do the optional Insert, but Michele and I decided that we were done. So we commented out the insert method and left it to a later time.
+11- It was late Wednesday morning when we finally had a working code with no bugs, and Mr. H wanted to do the optional Insert, but Michele and I decided that we were done. So we commented out the insert method and left it to a later time.
 */
 
 import java.io.*;

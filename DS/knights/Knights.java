@@ -1,5 +1,7 @@
 
 //I got in trouble with my Repo and lost some stuff, so I had to comm and push again.
+//Reorganized the work, made sure that it still runs.
+//Got some help from Michele P who also worked with Eric on this project.
 import java.io.*;
 import java.util.*;
 

@@ -1,6 +1,9 @@
-
+// chaouiki hadjaahmed
+//
+//
 import java.io.*;
 import java.util.*;
+import java.lang.*;
 
 /*
 Setup:
@@ -8,44 +11,53 @@ Project: Hash*/
 
 
 public class PhoneBook{
+  private ArrayList<Customer> phoneBook = new ArrayList<>();  // to store the customer
 
-  /* Instance Variables */
-  private ArrayList<Integer><customer> data;  // to store the data
-
-
+  /* Instance phonrbook 100 custoners */
   public PhoneBook(){
-    data = new ArrayList<Integer><customer>(); //create a 2D ArrayList
-
-    for (int i = 0; i < 99; i++){
-      data.add(0.null);
-    }
-
+   //create a phonebook ArrayList with null element
+   for(int i=0; i<100; i++) {
+        phoneBook.add(null);
+   } 
   }
 
-  public PhoneBook(int size){ //test cases
-    data = new ArrayList<Integer>();
-    for (int i=0;i<size;i++){
-      data.add(0, null);
-    }
-
+/* Instance phonrbook size custoners */
+  public PhoneBook(int size){ 
+   
+    for(int i=0; i<size ; i++) {
+        phoneBook.add(null);
+   } 
   }
 
-  //public int get(int index){
-    //return this.data.get(index);
-  //}
-  //method to insert data
-  public void insert(String lastName, String firstName, int phoneNumber){
-    int index = hash(lastName);
-    //look for an empty space: if it's empty in the hashtable we add;
-    //if not empty we go to the end of link table until the next is null
-    //add in the link list table
-    if (data.get(index)== 0) {
-        Customer(Martinez, Jose, 2121234567, null);
-        data.add(index, Customer);
-    }
 
-
-
-
+  public void printPhoneBookList(){
+    //print PhoneBook customers
+    for(Customer element:phoneBook){
+      if (element !=null){
+      element.printCustomer();
+      } 
+    } 
+    
   }
+  public Customer get(int index){
+    return this.phoneBook.get(index);
+  }
+
+  public void add(Customer c){
+     this.phoneBook.add(c);
+  }
+
+  public void add(int index ,Customer c){
+     this.phoneBook.add(index,c);
+  }
+
+  public void remove(int index ){
+     this.phoneBook.remove(index);
+  }
+
+  
+  public void set(int index ,Customer c){
+     this.phoneBook.set(index,c);
+  }
+
 }//end class PhoneBook
